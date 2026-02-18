@@ -14,14 +14,19 @@ The repository contains three primary exercises that progress from basic pointer
 **Experiment & Results**
 
 **Experiment 1:** Pointer Basics
+
 - **Objective:** Use pointers to calculate the area of a rectangle and compare dimensions.
 - **Key Logic:** Accessing values via the dereference operator (*lengthPtr) and addresses via the address-of operator (&length).
 - **Result:** Successfully calculated area and determined which dimension was greater using only pointer variables.
+- 
 **Experiment 2:** Dynamic Variables
+  
 - **Objective:** Allocate memory for three integers and a 10-character name array on the heap.
 - **Implementation:** Used new int and new char[MAXNAME] to request memory.
 - **Result:** The program echoed the user's name and calculated the sum of three dynamically stored integers.
+- 
 **Experiment 3:** Dynamic Sales Array
+  
 - **Objective:** Process monthly sales data where the number of months is defined by the user.
 - **Calculation:**
 - **Total Sales:** $\sum Sales_{i}$
